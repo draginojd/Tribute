@@ -1,0 +1,10 @@
+.videos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.vid{
+
+  flex: 1;
+  flex-basis: 45%;
+}
