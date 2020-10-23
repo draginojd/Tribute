@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+	
+
+body{
+	background-image: url("youngthugre.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	
+	
+}
+
+h2{
+	padding-top: 25px; /* An element's padding is the space between its content and its border.  */
+}
+
+h3{
+	padding-bottom: 45px; /* px = Pixels */ /* An element's padding is the space between its content and its border.  */
+}
+ul
+{ list-style-type: none; /*Adds no styling to the list */
+	padding: 0px; /* An element's padding is the space between its content and its border.  */
+	margin: 0px;/* Margins are used to create space around elements and outside of any defined borders. */
+	overflow: hidden; /* You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.*/
+	background-color: #2D2D2D }
+
+li{float: left;} /* list float left */
+
+hr{ /* horizontal line with set to 100%*/
+	width: 100%;
+}
+
+li a {
+	display:block;
+	color: aqua; /* Setting the color to aqua */
+	text-align: inherit;
+	padding: 6px; /* An element's padding is the space between its content and its border.  */
+	text-decoration: none; /*Makes the underline for the navbar links dissapear*/
+}
+
+li a:hover{
+	background-color: #005A5E;
+}
+
+b{
+	margin: 20px;
+}

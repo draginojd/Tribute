@@ -1,0 +1,180 @@
+/* CSS Document */
+
+ul
+{ list-style-type: none;
+	padding: 5px;
+	margin: 1px;
+	overflow: hidden;
+	background-color: #2D2D2D }
+
+
+li{float: left;} /* Makes the nav list float left*/
+
+
+
+hr{ /* Horizontal line width got a value of 100%*/
+	width: 100%;
+}
+
+
+
+li a {
+	display:block;
+	color: aqua; /* Makes the text color of the navbar turn aqua */
+	text-align: fixed;
+	padding: 6px;
+	text-decoration: none; /*Makes the underline for the navbar links dissapear*/
+}
+
+
+
+li a:hover{ /* Making li hoover*/
+	background-color: #005A5E;
+}
+/*---------------------------------------------------------------------------------------------*/
+
+* {box-sizing: border-box;}
+
+.album1 {
+  position: relative;
+  width: 50%; /* Width set to 50% */
+  max-width: 300px; /* Max-width set to 300px. */
+}
+
+.image {
+  display: block; /* The display property specifies the display behavior (the type of rendering box) of an element.*/
+  width: 100%; /* width set to 100% */
+  height: auto; /*Height of the image is defined automatically*/
+}
+
+.overlay {
+  position: absolute;  /* Makes the hover line up perfect with the photo */
+  bottom: 1; /* Makes the hover fade in FROM under the picture instead of in the picture */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0; /* makes the hovers starting-point invisible*/
+  color: white; /* Makes the text white when hovering over the picture  */
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.album1:hover .overlay {
+  opacity: 1; /* Creates opacity for the hover on the images so the text surroundings is not solid*/
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+.album2 {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+	float: right;
+}
+
+.youngthug3 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay2 {
+  position: absolute;  /* Makes the hover line up perfect with the photo */
+  bottom: 1; /* Makes the hover fade in FROM under the picture instead of in the picture */
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through / Black Transparent */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0; /* makes the hovers starting-point invisible*/
+  color: white; /* Makes the text white when hovering over the picture  */
+  font-size: 20px;
+  padding: 20px; /* An element's padding is the space between its content and its border.  */
+  text-align: center;
+	float: right;
+}
+
+.album2:hover .overlay2 {
+  opacity: 1;
+}
+
+/*-------------------------------------------------------------------------------------------- */
+
+/* INFO YOUNG THUG*/
+
+
+h1{
+	text-align: left;
+	color: #004247;
+}
+p{
+	font-size: 20px;
+	text-align: right;
+	padding-left: 3px; /* An element's padding is the space between its content and its border.  */
+	margin-left: 3px;
+	
+	
+}
+
+
+/*------------------------------------ICON BAR------------------------------------------------ */
+
+	.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);/*Since the default position puts the top of the inner element at the top of the outer element, this puts the top of the inner element at the middle of the outer element. transform: translateY(-50%); This moves the inner element back up a distance of half the height of the inner element.*/
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: right; 
+  padding: 16px; /* An element's padding is the space between its content and its border.  */
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+	float: center;
+}
+
+.icon-bar a:hover {
+  background-color: #000000;
+}
+
+
+
+
+.google {
+  background-image: url("Chrome-Logo.jpg");
+	background-repeat: no-repeat;
+	background: cover;
+  color: yellowgreen;
+}
+
+
+
+.youtube {
+  background-image: url(YouTube.png);
+	background-repeat: no-repeat;
+	background-image: cover;
+  color: white;
+}
+
+.spotify {
+	background-image: url(Spotify.png);
+	color: white
+}
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+
+body{
+	background-image: url("YoungThug2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
